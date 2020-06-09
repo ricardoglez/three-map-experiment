@@ -5,10 +5,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    app: './src/main.js',
+    app: './src/index.js',
   },
   plugins: [
-    new CleanWebpackPlugin( {cleanStaleWebpackASsets: false } ),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: '3d Map',
     }),

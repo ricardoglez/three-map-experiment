@@ -1,8 +1,7 @@
-import csvtojson from 'csvtojson';
-import data from '../data/data.csv';
-
-const getJSONData =  async () => {
-  console.log('Getting csv data and converting to JSON');
+const dataPath =  '../data/data.csv';
+const data = [];
+const getJSONdata =  async () => {
+  console.log('Getting csv data and converting to JSON', data);
   try{
     console.log(data);
     return data;
@@ -13,4 +12,4 @@ const getJSONData =  async () => {
   }
 }
 
-export {getJSONData};
+export {getJSONdata};
