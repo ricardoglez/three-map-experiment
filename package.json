@@ -5,7 +5,8 @@
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^4.3.0",
-    "three": "^0.117.1"
+    "three": "^0.117.1",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "webpack": "^4.43.0",
